@@ -1,0 +1,29 @@
+:root {
+    --white-color: #ffffff;
+    --text-color: #3a3f45;
+    --hover-color:  #32c5d2;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto','sans-self';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1,4rem;
+    border: 1px solid #ccc;
+    background-color: var(--white-color);
+    cursor: pointer;
+    transition: linear .2s;
+}
+.btn:hover  {
+    transform: translate(-0.25rem, -0.25rem);
+    box-shadow: 0.25rem 0.25rem var(--text-color);
+}

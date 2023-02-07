@@ -1,0 +1,33 @@
+/* Table and moblie  */
+@media (max-width: 1023px) {
+    .hide-moblie-table {
+        display: none;
+    }
+    .presently-moblie-table {
+        display: block;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-table {
+        display: none;
+    }
+    .presently-table {
+        display: block;
+    }
+    .nav__moblie-list {
+        width: 50%;
+    }
+}
+/* Moblie  */
+@media (max-width: 739px) {
+    .hide-moblie {
+        display: none;
+    }
+    .presently-moblie {
+        display: block;
+    }
+    .nav__moblie-list {
+        width: 100%;
+    }
+}
